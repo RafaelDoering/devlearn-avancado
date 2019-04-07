@@ -1,0 +1,31 @@
+.container {
+  margin: auto;
+  padding: 2rem;
+  min-width: 320px;
+  max-width: 720px;
+}
+
+form {
+  display: flex;
+}
+
+form input {
+  flex-grow: 1;
+  border-style: solid;
+  border-color: #292827;
+  border-width: 1px 0 1px 1px;
+  border-radius: 0.5rem 0 0 0.5rem;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+form button {
+  border-style: solid;
+  border-color: #292827;
+  border-width: 1px 1px 1px 0px;
+  border-radius: 0 0.5rem 0.5rem 0;
+  background-color: #5EC8AE;
+  color: white;
+  padding: 0.5rem;
+  font-size: 16px;
+}

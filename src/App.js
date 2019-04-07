@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+import './App.css';
 
 import Home from './pages/home/Home';
 import Login from './pages/login/Login';
@@ -11,16 +12,14 @@ class App extends Component {
     return (
       <Router>
         <header>
+          <h1><Link to="/">UCL</Link></h1>
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/login">Login</Link>
               </li>
               <li>
                 <Link to="/signup">Signup</Link>
-              </li>
-              <li>
-                <Link to="/login">Login</Link>
               </li>
             </ul>
           </nav>
